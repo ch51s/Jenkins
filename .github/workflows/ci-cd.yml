@@ -33,7 +33,7 @@ jobs:
           username: ubuntu
           key:   ${{ secrets.EC2_SSH_KEY }}
           source: "target/*.war"
-          target: "/var/lib/tomcat9/webapps/"
+          target: "/var/lib/tomcat10/webapps/" 
 
       # 5. Restart Tomcat so the new WAR is deployed
       - name: Restart Tomcat
