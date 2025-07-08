@@ -43,5 +43,5 @@ jobs:
           username: ubuntu
           key:   ${{ secrets.EC2_SSH_KEY }}
           script: |
-            sudo systemctl restart tomcat9
+            sudo systemctl restart tomcat10
 
